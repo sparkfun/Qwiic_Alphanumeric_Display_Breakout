@@ -17267,9 +17267,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <package name="MOUNTING_HOLE_M2-0.4X6">
 <circle x="0" y="0" radius="2.25" width="0.03" layer="51"/>
 <circle x="0" y="4" radius="1.125" width="0.03" layer="51"/>
-<wire x1="1.15" y1="1.95" x2="1.15" y2="4" width="0.2032" layer="20"/>
-<wire x1="1.15" y1="4" x2="-1.15" y2="4" width="0.2032" layer="20" curve="180"/>
-<wire x1="-1.15" y1="4" x2="-1.15" y2="1.95" width="0.2032" layer="20"/>
+<wire x1="1.143" y1="1.905" x2="1.143" y2="4" width="0.2032" layer="20"/>
+<wire x1="1.143" y1="4" x2="-1.143" y2="4" width="0.2032" layer="20" curve="180"/>
+<wire x1="-1.143" y1="4" x2="-1.143" y2="1.905" width="0.2032" layer="20"/>
 <text x="0" y="0" size="0.5" layer="20" align="center">Route
 Out</text>
 <wire x1="-1.143" y1="1.905" x2="1.143" y2="1.905" width="0.2032" layer="20" curve="298.072487"/>

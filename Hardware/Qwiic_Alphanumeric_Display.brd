@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -197,11 +197,14 @@
 <text x="16.51" y="3.81" size="1.27" layer="20" font="vector" ratio="15">v-score</text>
 <text x="16.51" y="22.86" size="1.27" layer="20" font="vector" ratio="15">v-score</text>
 <text x="10.668" y="0.635" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
-<dimension x1="2.54" y1="2.54" x2="2.54" y2="25.4" x3="-5.08" y3="13.97" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="2.54" y2="25.4" x3="-8.89" y3="13.97" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="5.842" x2="0" y2="22.098" x3="-1.27" y3="13.97" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="27.94" x2="40.64" y2="27.94" x3="20.32" y3="33.02" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="25.4" x2="38.1" y2="25.4" x3="20.32" y3="29.21" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="0" y="38.1" size="1.778" layer="47" font="vector" ratio="15">All measures in inches</text>
+<dimension x1="0" y1="27.94" x2="40.64" y2="27.94" x3="20.32" y3="36.83" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="25.4" x2="38.1" y2="25.4" x3="20.32" y3="33.02" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="0" y="40.64" size="1.778" layer="47" font="vector" ratio="15">All measures in inches</text>
+<dimension x1="8.636" y1="15.24" x2="33.02" y2="15.24" x3="20.828" y3="29.21" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="27.94" x3="-12.7" y3="13.97" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="8.636" y1="15.24" x2="8.89" y2="0" x3="-5.08" y3="7.62" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -1775,9 +1778,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="MOUNTING_HOLE_M2-0.4X6">
 <circle x="0" y="0" radius="2.25" width="0.03" layer="51"/>
 <circle x="0" y="4" radius="1.125" width="0.03" layer="51"/>
-<wire x1="1.15" y1="1.95" x2="1.15" y2="4" width="0.2032" layer="20"/>
-<wire x1="1.15" y1="4" x2="-1.15" y2="4" width="0.2032" layer="20" curve="180"/>
-<wire x1="-1.15" y1="4" x2="-1.15" y2="1.95" width="0.2032" layer="20"/>
+<wire x1="1.143" y1="1.905" x2="1.143" y2="4" width="0.2032" layer="20"/>
+<wire x1="1.143" y1="4" x2="-1.143" y2="4" width="0.2032" layer="20" curve="180"/>
+<wire x1="-1.143" y1="4" x2="-1.143" y2="1.905" width="0.2032" layer="20"/>
 <text x="0" y="0" size="0.5" layer="20" align="center">Route
 Out</text>
 <wire x1="-1.143" y1="1.905" x2="1.143" y2="1.905" width="0.2032" layer="20" curve="298.072487"/>
@@ -4191,16 +4194,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="22,1,03520353065d065c"/>
-<approved hash="22,1,54d954c62dc82dd7"/>
-<approved hash="22,1,33ed33ea36e436e3"/>
-<approved hash="22,1,445044515d5f5d5e"/>
-<approved hash="22,16,03520353065d065c"/>
-<approved hash="22,16,54d954c62dc82dd7"/>
-<approved hash="22,16,33ed33ea36e436e3"/>
-<approved hash="22,16,445044515d5f5d5e"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
