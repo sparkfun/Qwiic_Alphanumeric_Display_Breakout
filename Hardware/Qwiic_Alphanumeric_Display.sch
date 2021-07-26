@@ -19907,7 +19907,7 @@ Connected to AD = 1</text>
 <wire x1="172.72" y1="137.16" x2="248.92" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <wire x1="55.88" y1="185.42" x2="55.88" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <text x="195.58" y="129.54" size="2.54" layer="94" font="vector">Alphanumeric Display</text>
-<text x="104.14" y="180.34" size="2.54" layer="94" font="vector">HT16K33 LED Driver</text>
+<text x="104.14" y="180.34" size="2.54" layer="94" font="vector">VK16K33 LED Driver</text>
 <text x="10.16" y="180.34" size="2.54" layer="94" font="vector">3.3V to 5V boost circuit</text>
 <text x="109.22" y="96.52" size="1.27" layer="97" font="vector">VK16K33</text>
 <text x="12.7" y="124.46" size="1.778" layer="94" font="vector">VCC Range: 0.7V ~ 5.5V</text>
