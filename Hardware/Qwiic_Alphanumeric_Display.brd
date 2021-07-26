@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -3734,7 +3734,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="IC1" library="Alphanumeric_Display_Library" package="VK16K33" value="" x="19.05" y="13.97" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.8" y="8.37" size="1.778" layer="25" rot="R180"/>
-<attribute name="PROD_ID" value="" x="19.05" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="IC-16176" x="19.05" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="26.75" y="21.37" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="U$6" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="6.35" y="23.495" smashed="yes"/>

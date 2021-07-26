@@ -19836,7 +19836,7 @@ Mechanical Specifications
 <part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="IC1" library="Alphanumeric_Display_Library" deviceset="VK16K33" device="VK16K33">
-<attribute name="PROD_ID" value=""/>
+<attribute name="PROD_ID" value="IC-16176"/>
 </part>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
