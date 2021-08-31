@@ -19851,7 +19851,6 @@ Mechanical Specifications
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-CDRH-4.7UH" value="4.7µH"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -19863,6 +19862,7 @@ Mechanical Specifications
 <part name="U$7" library="Alphanumeric_Display_Library" deviceset="MOUNTING_HOLE_M2-0.4X6" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19870,11 +19870,7 @@ Mechanical Specifications
 <text x="167.894" y="11.43" size="2.54" layer="94" font="vector">Priyanka Makin</text>
 <wire x1="0" y1="66.04" x2="58.42" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <text x="88.9" y="53.34" size="2.54" layer="94" font="vector">I2C Connections</text>
-<text x="175.26" y="165.1" size="1.778" layer="97" font="vector">A1     A0    Address</text>
-<text x="175.26" y="160.02" size="2.032" layer="97" font="vector">0      0     0x70</text>
-<text x="175.26" y="154.94" size="2.032" layer="97" font="vector">0      1     0x71</text>
-<text x="175.26" y="149.86" size="2.032" layer="97" font="vector">1      0     0x72</text>
-<text x="175.26" y="144.78" size="2.032" layer="97" font="vector">1      1     0x73</text>
+<text x="175.26" y="165.1" size="1.778" layer="97" font="vector">A1          A0             Address</text>
 <wire x1="58.42" y1="66.04" x2="172.72" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="172.72" y1="66.04" x2="248.92" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="172.72" y1="167.64" x2="172.72" y2="163.83" width="0.2032" layer="97"/>
@@ -19882,9 +19878,9 @@ Mechanical Specifications
 <wire x1="172.72" y1="158.75" x2="172.72" y2="153.67" width="0.2032" layer="97"/>
 <wire x1="172.72" y1="153.67" x2="172.72" y2="148.59" width="0.2032" layer="97"/>
 <wire x1="172.72" y1="148.59" x2="172.72" y2="143.51" width="0.2032" layer="97"/>
-<wire x1="172.72" y1="167.64" x2="179.832" y2="167.64" width="0.2032" layer="97"/>
-<wire x1="179.832" y1="167.64" x2="187.198" y2="167.64" width="0.2032" layer="97"/>
-<wire x1="187.198" y1="167.64" x2="213.36" y2="167.64" width="0.2032" layer="97"/>
+<wire x1="172.72" y1="167.64" x2="184.912" y2="167.64" width="0.2032" layer="97"/>
+<wire x1="184.912" y1="167.64" x2="199.898" y2="167.64" width="0.2032" layer="97"/>
+<wire x1="199.898" y1="167.64" x2="213.36" y2="167.64" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="167.64" x2="213.36" y2="163.83" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="163.83" x2="213.36" y2="158.75" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="158.75" x2="213.36" y2="153.67" width="0.2032" layer="97"/>
@@ -19894,14 +19890,14 @@ Mechanical Specifications
 <wire x1="172.72" y1="158.75" x2="213.36" y2="158.75" width="0.2032" layer="97"/>
 <wire x1="172.72" y1="153.67" x2="213.36" y2="153.67" width="0.2032" layer="97"/>
 <wire x1="172.72" y1="148.59" x2="213.36" y2="148.59" width="0.2032" layer="97"/>
-<wire x1="172.72" y1="143.51" x2="187.198" y2="143.51" width="0.2032" layer="97"/>
+<wire x1="172.72" y1="143.51" x2="199.898" y2="143.51" width="0.2032" layer="97"/>
 <text x="172.72" y="170.18" size="1.9304" layer="97" font="vector">Default address: 0x70
 When no jumpers are closed
 Floating pin (A0/A1) = 0
 Connected to AD = 1</text>
-<wire x1="187.198" y1="143.51" x2="213.36" y2="143.51" width="0.2032" layer="97"/>
-<wire x1="179.832" y1="167.64" x2="179.832" y2="143.256" width="0.2032" layer="97"/>
-<wire x1="187.198" y1="167.64" x2="187.198" y2="143.51" width="0.2032" layer="97"/>
+<wire x1="199.898" y1="143.51" x2="213.36" y2="143.51" width="0.2032" layer="97"/>
+<wire x1="184.912" y1="167.64" x2="184.912" y2="143.256" width="0.2032" layer="97"/>
+<wire x1="199.898" y1="167.64" x2="199.898" y2="143.51" width="0.2032" layer="97"/>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
 <wire x1="172.72" y1="66.04" x2="172.72" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <wire x1="172.72" y1="137.16" x2="248.92" y2="137.16" width="0.2032" layer="97" style="longdash"/>
@@ -19913,6 +19909,10 @@ Connected to AD = 1</text>
 <text x="12.7" y="124.46" size="1.778" layer="94" font="vector">VCC Range: 0.7V ~ 5.5V</text>
 <text x="104.14" y="86.36" size="1.778" layer="94" font="vector">Operating Voltage: 4.5V ~ 5.5V</text>
 <text x="198.12" y="68.58" size="1.778" layer="94" font="vector">Forward Voltage: 2.7V ~ 3.6V</text>
+<text x="175.26" y="154.94" size="2.032" layer="97" font="vector">Open       Closed     0x71</text>
+<text x="175.26" y="160.02" size="2.032" layer="97" font="vector">Open       Open       0x70</text>
+<text x="175.26" y="149.86" size="2.032" layer="97" font="vector">Closed     Open       0x72</text>
+<text x="175.26" y="144.78" size="2.032" layer="97" font="vector">Closed     Closed     0x73</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -20048,9 +20048,6 @@ Connected to AD = 1</text>
 <instance part="SUPPLY10" gate="G$1" x="15.24" y="106.68" smashed="yes">
 <attribute name="VALUE" x="15.24" y="109.474" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="33.02" y="106.68" smashed="yes">
-<attribute name="VALUE" x="33.02" y="109.474" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="L1" gate="G$1" x="38.1" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.29" y="147.32" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="38.608" y="147.32" size="1.778" layer="96" font="vector" align="top-left"/>
@@ -20074,6 +20071,9 @@ Connected to AD = 1</text>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="99.06" y="149.86" smashed="yes">
 <attribute name="VALUE" x="99.06" y="152.654" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="33.02" y="106.68" smashed="yes">
+<attribute name="VALUE" x="33.02" y="109.474" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -20112,11 +20112,6 @@ Connected to AD = 1</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <wire x1="15.24" y1="106.68" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="106.68" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="U1" pin="VBAT"/>
@@ -20501,6 +20496,11 @@ Connected to AD = 1</text>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
 <wire x1="30.48" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="142.24" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY11" gate="G$1" pin="5V"/>
+<wire x1="33.02" y1="106.68" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
