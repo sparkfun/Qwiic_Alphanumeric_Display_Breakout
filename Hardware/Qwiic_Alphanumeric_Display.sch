@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -19898,7 +19898,7 @@ Connected to AD = 1</text>
 <wire x1="199.898" y1="143.51" x2="213.36" y2="143.51" width="0.2032" layer="97"/>
 <wire x1="184.912" y1="167.64" x2="184.912" y2="143.256" width="0.2032" layer="97"/>
 <wire x1="199.898" y1="167.64" x2="199.898" y2="143.51" width="0.2032" layer="97"/>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <wire x1="172.72" y1="66.04" x2="172.72" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <wire x1="172.72" y1="137.16" x2="248.92" y2="137.16" width="0.2032" layer="97" style="longdash"/>
 <wire x1="58.42" y1="185.42" x2="58.42" y2="66.04" width="0.2032" layer="97" style="longdash"/>
