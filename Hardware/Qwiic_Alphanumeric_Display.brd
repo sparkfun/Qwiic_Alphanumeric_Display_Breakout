@@ -1426,22 +1426,21 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0402">
-<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
-<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
-<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
-<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
 <package name="0603">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
@@ -4356,11 +4355,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="31.242" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="34.29" y="2.54" smashed="yes"/>
-<element name="R4" library="SparkFun-Resistors" package="0402" value="1KOHM-0402-1/16W-1%" x="3.81" y="7.493" smashed="yes">
-<attribute name="PROD_ID" value="RES-14342" x="52.07" y="-57.277" size="1.778" layer="27" display="off"/>
+<element name="R4" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7k" x="3.81" y="7.493" smashed="yes">
+<attribute name="PROD_ID" value="RES-15343" x="52.07" y="-57.277" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="4.7k" x="3.81" y="7.493" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" package="0402" value="1KOHM-0402-1/16W-1%" x="10.16" y="7.493" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="RES-14342" x="-41.91" y="72.263" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R5" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7k" x="10.16" y="7.493" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="RES-15343" x="-41.91" y="72.263" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="4.7k" x="10.16" y="7.493" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="A1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="35.814" y="17.907" smashed="yes">
 <attribute name="NAME" x="35.814" y="19.05" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -4587,7 +4588,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="23.622" y1="6.35" x2="10.287" y2="6.35" width="0.2032" layer="1"/>
 <wire x1="10.287" y1="6.35" x2="3.722" y2="6.35" width="0.2032" layer="1"/>
 <wire x1="3.722" y1="6.35" x2="3.23" y2="6.842" width="0.2032" layer="1"/>
-<wire x1="3.23" y1="7.493" x2="3.23" y2="6.842" width="0.2032" layer="1"/>
+<wire x1="3.31" y1="7.493" x2="3.23" y2="6.842" width="0.2032" layer="1"/>
 <wire x1="26.2382" y1="15.0507125" x2="26.6192" y2="15.0507125" width="0.2032" layer="1"/>
 <wire x1="26.2382" y1="15.0507125" x2="24.765" y2="13.5775125" width="0.2032" layer="1"/>
 <via x="26.6192" y="15.0507125" extent="1-16" drill="0.3048"/>
@@ -4644,9 +4645,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="9.359" y1="19.851" x2="8.446" y2="20.764" width="0.2032" layer="1"/>
 <wire x1="10.9025" y1="15.9825" x2="10.9025" y2="8.6715" width="0.2032" layer="1"/>
 <wire x1="10.9025" y1="8.6715" x2="10.74" y2="8.509" width="0.2032" layer="1"/>
-<wire x1="10.74" y1="8.509" x2="10.74" y2="7.493" width="0.2032" layer="1"/>
+<wire x1="10.74" y1="8.509" x2="10.66" y2="7.493" width="0.2032" layer="1"/>
 <wire x1="10.922" y1="6.731" x2="10.74" y2="6.913" width="0.2032" layer="1"/>
-<wire x1="10.74" y1="6.913" x2="10.74" y2="7.493" width="0.2032" layer="1"/>
+<wire x1="10.74" y1="6.913" x2="10.66" y2="7.493" width="0.2032" layer="1"/>
 </signal>
 <signal name="DIG_1A">
 <contactref element="A1" pad="1"/>
@@ -4873,14 +4874,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="I2C" pad="3"/>
 <wire x1="5.9436" y1="7.239" x2="5.3086" y2="7.239" width="0.2032" layer="1"/>
 <wire x1="5.3086" y1="7.239" x2="5.0546" y2="7.493" width="0.2032" layer="1"/>
-<wire x1="5.0546" y1="7.493" x2="4.39" y2="7.493" width="0.2032" layer="1"/>
+<wire x1="5.0546" y1="7.493" x2="4.31" y2="7.493" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="I2C" pad="1"/>
 <contactref element="R5" pad="2"/>
 <wire x1="8.0264" y1="7.239" x2="8.5344" y2="7.239" width="0.2032" layer="1"/>
 <wire x1="8.7884" y1="7.493" x2="8.5344" y2="7.239" width="0.2032" layer="1"/>
-<wire x1="8.7884" y1="7.493" x2="9.58" y2="7.493" width="0.2032" layer="1"/>
+<wire x1="8.7884" y1="7.493" x2="9.66" y2="7.493" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
