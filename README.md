@@ -24,7 +24,7 @@ SparkFun Qwiic Alphanumeric Display
 
 -->
 
-We are quite familiar with seven-segment displays. We see them on our alarm clocks, ovens, and microwaves. By adding more segments to each digit you can display more than just numbers! Introducing the brand new SparkFun Qwiic Alphanumeric Display. These green fourteen-segment digits allow you to display all sorts of numbers, characters, and symbols. With [Qwiic](https://www.sparkfun.com/qwiic), simply plug it in and go. No soldering, no figuring out which is SDA or SCL, and no voltage regulation or translation required! 
+We are quite familiar with seven-segment displays. We see them on our alarm clocks, ovens, and microwaves. By adding more segments to each digit you can display more than just numbers! Introducing the brand new SparkFun Qwiic Alphanumeric Display. These fourteen-segment digits allow you to display all sorts of numbers, characters, and symbols. With [Qwiic](https://www.sparkfun.com/qwiic), simply plug it in and go. No soldering, no figuring out which is SDA or SCL, and no voltage regulation or translation required! 
 
 The [SparkFun Alphanumeric Display Arduino library](https://github.com/sparkfun/SparkFun_Alphanumeric_Display_Arduino_Library) makes printing strings to the display as easy as calling the print() function. With this library, you'll be able to send I<sup>2</sup>C commands to the VK16K33 LED driver chip to light up segments (including the decimal point or colon) and even scroll your string across the display. You can download the library through the Arduino library manager by searching 'SparkFun Alphanumeric Display' or you can get the GitHub repo as a .zip file and install the library from there.
 
