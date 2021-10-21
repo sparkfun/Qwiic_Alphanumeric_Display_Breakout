@@ -45,6 +45,10 @@ Repository Contents
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd) within the Production folder
 
+Documentation
+--------------
+* **[Library](https://github.com/sparkfun/SparkFun_Alphanumeric_Display_Arduino_Library)** - <LANGUAGE> library for the Qwiic Alphanumeric Display Breakout.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-alphanumeric-display-hookup-guide)** - Basic hookup guide for the Qwiic Alphanumeric Display Breakout.
 
 License Information
 -------------------
