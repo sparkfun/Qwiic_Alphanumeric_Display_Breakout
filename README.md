@@ -9,6 +9,7 @@ SparkFun Qwiic Alphanumeric Display
 
 [*Qwiic Alphanumeric Display - Green (COM-18566)*](https://www.sparkfun.com/products/18566)
 
+<!--
 [![Qwiic Alphanumeric Display - Red](https://cdn.sparkfun.com/assets/parts/1/5/1/8/3/16427-Demo-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/5/1/8/3/16427-Demo-01.jpg)
 
 [*Qwiic Alphanumeric Display - Red (COM-16916)*](https://www.sparkfun.com/products/16916)
@@ -21,8 +22,13 @@ SparkFun Qwiic Alphanumeric Display
 
 [*Qwiic Alphanumeric Display - Purple (COM-16918)*](https://www.sparkfun.com/products/16918)
 
+-->
 
-The SparkFun Qwiic Alphanumeric Display is a 14-segment, 4 digit alphanumeric display with the Hotlek HT16K33 LED Driver. The I2C address is configurable, so daisy-chain up to 4 displays on one bus! Looking for the library? Click [*here*](https://github.com/sparkfun/SparkFun_Alphanumeric_Display_Arduino_Library)
+We are quite familiar with seven-segment displays. We see them on our alarm clocks, ovens, and microwaves. By adding more segments to each digit you can display more than just numbers! Introducing the brand new SparkFun Qwiic Alphanumeric Display. These green fourteen-segment digits allow you to display all sorts of numbers, characters, and symbols. With [Qwiic](https://www.sparkfun.com/qwiic), simply plug it in and go. No soldering, no figuring out which is SDA or SCL, and no voltage regulation or translation required! 
+
+The [SparkFun Alphanumeric Display Arduino library](https://github.com/sparkfun/SparkFun_Alphanumeric_Display_Arduino_Library) makes printing strings to the display as easy as calling the print() function. With this library, you'll be able to send I<sup>2</sup>C commands to the VK16K33 LED driver chip to light up segments (including the decimal point or colon) and even scroll your string across the display. You can download the library through the Arduino library manager by searching 'SparkFun Alphanumeric Display' or you can get the GitHub repo as a .zip file and install the library from there.
+
+The VK16K33 also supports I<sup>2</sup>C address configuration. Simply close a combination of the address jumpers on the back and you can communicate with up to four displays on the same bus. Our slim board design also features detachable standoff holes, vertical Qwiic connectors, and internal mounting holes.
 
 SparkFun labored with love to design this board. Feel like supporting open source hardware? 
 Buy a [board]() from SparkFun!
