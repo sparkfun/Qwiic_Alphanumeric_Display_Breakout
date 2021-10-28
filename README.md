@@ -9,7 +9,6 @@ SparkFun Qwiic Alphanumeric Display
 
 [*Qwiic Alphanumeric Display - Green (COM-18566)*](https://www.sparkfun.com/products/18566)
 
-<!--
 [![Qwiic Alphanumeric Display - Red](https://cdn.sparkfun.com/assets/parts/1/5/8/5/2/16916-SparkFun_Qwiic_Alphanumeric_Display_-_Red-Demo.jpg)](https://cdn.sparkfun.com/assets/parts/1/5/8/5/2/16916-SparkFun_Qwiic_Alphanumeric_Display_-_Red-Demo.jpg)
 
 [*Qwiic Alphanumeric Display - Red (COM-16916)*](https://www.sparkfun.com/products/16916)
@@ -17,6 +16,9 @@ SparkFun Qwiic Alphanumeric Display
 [![Qwiic Alphanumeric Display - Blue](https://cdn.sparkfun.com/assets/parts/1/5/8/5/3/16917-SparkFun_Qwiic_Alphanumeric_Display_-_Blue-Demo.jpg)](https://cdn.sparkfun.com/assets/parts/1/5/8/5/3/16917-SparkFun_Qwiic_Alphanumeric_Display_-_Blue-Demo.jpg)
 
 [*Qwiic Alphanumeric Display - Blue (COM-16917)*](https://www.sparkfun.com/products/16917)
+
+<!--
+
 
 [![Qwiic Alphanumeric Display - Purple](https://cdn.sparkfun.com/assets/parts/1/5/8/5/4/16918-SparkFun_Qwiic_Alphanumeric_Display_-_Purple-Demo.jpg)](https://cdn.sparkfun.com/assets/parts/1/5/8/5/4/16918-SparkFun_Qwiic_Alphanumeric_Display_-_Purple-Demo.jpg)
 
